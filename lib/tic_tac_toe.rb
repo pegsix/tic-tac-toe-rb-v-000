@@ -22,3 +22,11 @@ WIN_COMBINATIONS = [
   [0,4,8],  # 1st diagonal win_combination[6]
   [2,4,6]  # 2nd diagonal win_combination[7]
 ]
+
+def full?(board)
+  if board.include?(" ") == true
+    return false
+  else
+    return true
+  end
+end
